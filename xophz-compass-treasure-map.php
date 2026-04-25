@@ -14,7 +14,7 @@
  * @wordpress-plugin
  * Category:          Castle Walls
  * Plugin Name:       Xophz Treasure Map 
- * Plugin URI:        http://www.midnightnerd.com/
+ * Plugin URI:        https://github.com/HalloftheGods/xophz-compass-treasure-map
  * Description:       The path to rewards: A gamified discovery engine tying sovereign data and participation to the YouMeOS XP system. 
  * Version:           26.4.24
  * Author:            Hall of the Gods, Inc.
