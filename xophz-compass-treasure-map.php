@@ -59,6 +59,21 @@ function deactivate_xophz_compass_treasure_map() {
 register_activation_hook( __FILE__, 'activate_xophz_compass_treasure_map' );
 register_deactivation_hook( __FILE__, 'deactivate_xophz_compass_treasure_map' );
 
+add_filter( 'compass_perform_widgets', function( $widgets ) {
+	$widgets[] = array(
+		'key'           => 'treasure-map-goals',
+		'plugin'        => 'xophz-compass-treasure-map',
+		'title'         => 'Quest Goals',
+		'icon'          => 'fad fa-map-marked-alt',
+		'color'         => '#62c9ff', // Cyan
+		'component'     => 'perform-widget-treasure-map',
+		'data_endpoint' => '/wp-json/xophz/v1/treasure-map/performance',
+		'size'          => 'md',
+		'order'         => 20,
+	);
+	return $widgets;
+});
+
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
