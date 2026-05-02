@@ -13,6 +13,7 @@
  * @package           Xophz_Compass
  * @wordpress-plugin
  * Category:          Castle Walls
+ * Group:             BI
  * Plugin Name:       Xophz Treasure Map 
  * Plugin URI:        https://github.com/HalloftheGods/xophz-compass-treasure-map
  * Description:       The path to rewards: A gamified discovery engine tying sovereign data and participation to the YouMeOS XP system. 
