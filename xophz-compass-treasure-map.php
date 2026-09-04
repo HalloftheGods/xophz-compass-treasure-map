@@ -53,8 +53,7 @@ function activate_xophz_compass_treasure_map() {
  * This action is documented in includes/class-xophz-compass-treasure-map-deactivator.php
  */
 function deactivate_xophz_compass_treasure_map() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-xophz-compass-treasure-map-deactivator.php';
-	Xophz_Compass_Treasure_Map_Deactivator::deactivate();
+	Xophz_Compass_Treasure_Map::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_xophz_compass_treasure_map' );
